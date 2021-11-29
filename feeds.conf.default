@@ -7,3 +7,4 @@ src-git management https://github.com/openwrt-management/packages.git
 src-link custom /usr/src/openwrt/custom-feed
 src-git lienol https://github.com/Lienol/openwrt-package
 #src-git helloworld https://github.com/fw876/helloworld
+#src-git opentopd  https://github.com/sirpdboy/sirpdboy-package
