@@ -18,13 +18,17 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
+      repo:
+        description: 'repo'
+        required: false
+        default: 'https://github.com/coolsnowwolf/lede'
       branch:
         description: 'branch or tag'
         required: true
         default: 'master'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: ${{ github.event.inputs.repo }}
   REPO_BRANCH: ${{ github.event.inputs.branch }}
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
