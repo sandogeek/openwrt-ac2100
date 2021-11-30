@@ -5,4 +5,3 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 src-git lienol https://github.com/Lienol/openwrt-package.git;main
 src-git other https://github.com/Lienol/openwrt-package.git;other
 src-git netspeedtest  https://github.com/sirpdboy/netspeedtest
-src-git netdata  https://github.com/sirpdboy/luci-app-netdata
