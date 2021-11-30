@@ -4,4 +4,5 @@ src-git routing https://git.openwrt.org/feed/routing.git
 src-git telephony https://git.openwrt.org/feed/telephony.git
 src-git lienol https://github.com/Lienol/openwrt-package.git;main
 src-git other https://github.com/Lienol/openwrt-package.git;other
-src-git opentopd  https://github.com/sirpdboy/sirpdboy-package
+src-git netspeedtest  https://github.com/sirpdboy/netspeedtest
+src-git netdata  https://github.com/sirpdboy/luci-app-netdata
